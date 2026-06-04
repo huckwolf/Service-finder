@@ -1,0 +1,77 @@
+[
+  {
+    "_id": "legal",
+    "label": "Legal",
+    "isActive": true
+  },
+  {
+    "_id": "advice",
+    "label": "Advice",
+    "isActive": true
+  },
+  {
+    "_id": "chat",
+    "label": "Chat",
+    "isActive": true
+  },
+  {
+    "_id": "free",
+    "label": "Free",
+    "isActive": true
+  },
+  {
+    "_id": "support",
+    "label": "Support",
+    "isActive": true
+  },
+  {
+    "_id": "domestic_violence",
+    "label": "Domestic violence",
+    "isActive": true
+  },
+  {
+    "_id": "family_violence",
+    "label": "Family violence",
+    "isActive": true
+  },
+  {
+    "_id": "safety",
+    "label": "Safety",
+    "isActive": true
+  },
+  {
+    "_id": "mental_health",
+    "label": "Mental health",
+    "isActive": true
+  },
+  {
+    "_id": "digital_skills",
+    "label": "Digital skills",
+    "isActive": true
+  },
+  {
+    "_id": "computer",
+    "label": "Computer",
+    "isActive": true
+  },
+  {
+    "_id": "training",
+    "label": "Training",
+    "isActive": true
+  },
+  {
+    "_id": "english",
+    "label": "English",
+    "isActive": true
+  },
+  {
+    "_id": "jobs",
+    "label": "Jobs",
+    "isActive": true
+  },
+  {
+    "_id": "business",
+    "label": "Business",
+    "isActive": true
+  }
+]
