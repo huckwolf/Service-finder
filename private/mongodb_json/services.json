@@ -1,0 +1,398 @@
+[
+  {
+    "title": "Harbour Legal Help Chat",
+    "slug": "harbour-legal-help-chat",
+    "type": "support_service",
+    "categoryIds": ["legal_advice"],
+    "deliveryModeIds": ["online", "chat", "phone"],
+    "targetAudienceIds": ["adults", "families", "young_people"],
+    "tagIds": ["legal", "advice", "chat", "free", "support"],
+    "description": "Free online legal information and referral support for people who need help understanding their options.",
+    "provider": {
+      "name": "Harbour Community Legal Centre",
+      "website": "https://example.org.au/harbour-legal",
+      "phone": "1300 100 200",
+      "email": "help@harbourlegal.example.org.au"
+    },
+    "cost": {
+      "type": "free",
+      "description": "Free service"
+    },
+    "location": {
+      "onlineOnly": true,
+      "state": "NSW",
+      "suburb": null,
+      "postcode": null,
+      "addressLine1": null,
+      "addressLine2": null
+    },
+    "eligibility": "Available to people living in NSW who need general legal information or referral support.",
+    "openingHours": "Monday to Friday, 9am to 5pm",
+    "isActive": true,
+    "createdAt": "2026-05-30T00:00:00.000Z",
+    "updatedAt": "2026-05-30T00:00:00.000Z"
+  },
+  {
+    "title": "Safe Path Family Violence Support",
+    "slug": "safe-path-family-violence-support",
+    "type": "support_service",
+    "categoryIds": ["domestic_violence", "mental_health"],
+    "deliveryModeIds": ["online", "chat", "phone"],
+    "targetAudienceIds": ["women", "families", "young_people"],
+    "tagIds": ["domestic_violence", "family_violence", "safety", "support", "mental_health"],
+    "description": "Confidential online and phone support for people experiencing domestic or family violence.",
+    "provider": {
+      "name": "Safe Path Support Services",
+      "website": "https://example.org.au/safe-path",
+      "phone": "1800 300 400",
+      "email": "support@safepath.example.org.au"
+    },
+    "cost": {
+      "type": "free",
+      "description": "Free and confidential support"
+    },
+    "location": {
+      "onlineOnly": true,
+      "state": "NSW",
+      "suburb": null,
+      "postcode": null,
+      "addressLine1": null,
+      "addressLine2": null
+    },
+    "eligibility": "Available to people seeking safety information, emotional support, or referral pathways.",
+    "openingHours": "24 hours, 7 days",
+    "isActive": true,
+    "createdAt": "2026-05-30T00:00:00.000Z",
+    "updatedAt": "2026-05-30T00:00:00.000Z"
+  },
+  {
+    "title": "Budget Bridge Financial Counselling",
+    "slug": "budget-bridge-financial-counselling",
+    "type": "support_service",
+    "categoryIds": ["financial_support"],
+    "deliveryModeIds": ["phone", "online"],
+    "targetAudienceIds": ["adults", "families", "job_seekers"],
+    "tagIds": ["advice", "free", "support"],
+    "description": "Financial counselling for people experiencing debt, bills stress, or money problems.",
+    "provider": {
+      "name": "Budget Bridge Help Centre",
+      "website": "https://example.org.au/budget-bridge",
+      "phone": "1800 555 101",
+      "email": "contact@budgetbridge.example.org.au"
+    },
+    "cost": {
+      "type": "free",
+      "description": "Free financial counselling"
+    },
+    "location": {
+      "onlineOnly": true,
+      "state": "NSW",
+      "suburb": null,
+      "postcode": null,
+      "addressLine1": null,
+      "addressLine2": null
+    },
+    "eligibility": "Available to people experiencing financial hardship or difficulty paying bills.",
+    "openingHours": "Monday to Friday, 8:30am to 6pm",
+    "isActive": true,
+    "createdAt": "2026-05-30T00:00:00.000Z",
+    "updatedAt": "2026-05-30T00:00:00.000Z"
+  },
+  {
+    "title": "Inner West Housing Advice Hub",
+    "slug": "inner-west-housing-advice-hub",
+    "type": "support_service",
+    "categoryIds": ["housing_support"],
+    "deliveryModeIds": ["phone", "in_person"],
+    "targetAudienceIds": ["adults", "families", "community_members"],
+    "tagIds": ["advice", "support", "free"],
+    "description": "Advice and referral support for people at risk of homelessness or needing urgent housing assistance.",
+    "provider": {
+      "name": "Inner West Housing Hub",
+      "website": "https://example.org.au/inner-west-housing",
+      "phone": "02 9000 1100",
+      "email": "intake@innerwesthousing.example.org.au"
+    },
+    "cost": {
+      "type": "free",
+      "description": "Free advice and referral service"
+    },
+    "location": {
+      "onlineOnly": false,
+      "state": "NSW",
+      "suburb": "Marrickville",
+      "postcode": "2204",
+      "addressLine1": "12 Station Street",
+      "addressLine2": "Level 1"
+    },
+    "eligibility": "Available to people experiencing housing stress or at risk of homelessness.",
+    "openingHours": "Monday to Friday, 9am to 5pm",
+    "isActive": true,
+    "createdAt": "2026-05-30T00:00:00.000Z",
+    "updatedAt": "2026-05-30T00:00:00.000Z"
+  },
+  {
+    "title": "Northside Youth Wellbeing Chat",
+    "slug": "northside-youth-wellbeing-chat",
+    "type": "support_service",
+    "categoryIds": ["mental_health"],
+    "deliveryModeIds": ["online", "chat"],
+    "targetAudienceIds": ["young_people", "students"],
+    "tagIds": ["mental_health", "chat", "support", "free"],
+    "description": "Online chat support for young people who want to talk about stress, anxiety, school, family, or relationships.",
+    "provider": {
+      "name": "Northside Youth Wellbeing",
+      "website": "https://example.org.au/northside-youth",
+      "phone": null,
+      "email": "chat@northsideyouth.example.org.au"
+    },
+    "cost": {
+      "type": "free",
+      "description": "Free online chat support"
+    },
+    "location": {
+      "onlineOnly": true,
+      "state": "NSW",
+      "suburb": null,
+      "postcode": null,
+      "addressLine1": null,
+      "addressLine2": null
+    },
+    "eligibility": "For young people aged 12 to 25.",
+    "openingHours": "Every day, 3pm to 11pm",
+    "isActive": true,
+    "createdAt": "2026-05-30T00:00:00.000Z",
+    "updatedAt": "2026-05-30T00:00:00.000Z"
+  },
+  {
+    "title": "Parramatta Digital Basics Class",
+    "slug": "parramatta-digital-basics-class",
+    "type": "learning_service",
+    "categoryIds": ["digital_skills", "career_skills"],
+    "deliveryModeIds": ["in_person", "online"],
+    "targetAudienceIds": ["adults", "job_seekers", "seniors"],
+    "tagIds": ["digital_skills", "computer", "training", "free"],
+    "description": "A beginner-friendly class to help people use computers, email, online forms, and common digital services.",
+    "provider": {
+      "name": "Parramatta Learning Centre",
+      "website": "https://example.org.au/parramatta-digital",
+      "phone": "02 9100 2200",
+      "email": "learn@parramattalearning.example.org.au"
+    },
+    "cost": {
+      "type": "free",
+      "description": "Free class"
+    },
+    "location": {
+      "onlineOnly": false,
+      "state": "NSW",
+      "suburb": "Parramatta",
+      "postcode": "2150",
+      "addressLine1": "45 Church Street",
+      "addressLine2": "Room 3"
+    },
+    "eligibility": "Open to beginners with limited computer experience.",
+    "openingHours": "Monday and Wednesday mornings",
+    "isActive": true,
+    "createdAt": "2026-05-30T00:00:00.000Z",
+    "updatedAt": "2026-05-30T00:00:00.000Z"
+  },
+  {
+    "title": "Blacktown English Conversation Group",
+    "slug": "blacktown-english-conversation-group",
+    "type": "learning_service",
+    "categoryIds": ["english_language", "life_skills"],
+    "deliveryModeIds": ["in_person"],
+    "targetAudienceIds": ["adults", "migrants", "community_members"],
+    "tagIds": ["english", "training", "support"],
+    "description": "A friendly English conversation group for people who want to practise speaking English in everyday situations.",
+    "provider": {
+      "name": "Blacktown Community College",
+      "website": "https://example.org.au/blacktown-english",
+      "phone": "02 9200 3300",
+      "email": "hello@blacktowncollege.example.org.au"
+    },
+    "cost": {
+      "type": "low_cost",
+      "description": "Low-cost community class"
+    },
+    "location": {
+      "onlineOnly": false,
+      "state": "NSW",
+      "suburb": "Blacktown",
+      "postcode": "2148",
+      "addressLine1": "8 Main Street",
+      "addressLine2": null
+    },
+    "eligibility": "Suitable for beginner to intermediate English learners.",
+    "openingHours": "Tuesday and Thursday mornings",
+    "isActive": true,
+    "createdAt": "2026-05-30T00:00:00.000Z",
+    "updatedAt": "2026-05-30T00:00:00.000Z"
+  },
+  {
+    "title": "Liverpool Job Ready Workshop",
+    "slug": "liverpool-job-ready-workshop",
+    "type": "learning_service",
+    "categoryIds": ["career_skills"],
+    "deliveryModeIds": ["in_person", "online"],
+    "targetAudienceIds": ["job_seekers", "students", "adults"],
+    "tagIds": ["jobs", "training", "advice", "free"],
+    "description": "A practical workshop that helps people prepare resumes, write cover letters, and practise interview answers.",
+    "provider": {
+      "name": "Liverpool Employment Hub",
+      "website": "https://example.org.au/liverpool-jobs",
+      "phone": "02 9300 4400",
+      "email": "jobs@liverpoolhub.example.org.au"
+    },
+    "cost": {
+      "type": "free",
+      "description": "Free workshop"
+    },
+    "location": {
+      "onlineOnly": false,
+      "state": "NSW",
+      "suburb": "Liverpool",
+      "postcode": "2170",
+      "addressLine1": "22 Macquarie Street",
+      "addressLine2": "Training Room B"
+    },
+    "eligibility": "Open to job seekers, students, and people returning to work.",
+    "openingHours": "Monthly workshops",
+    "isActive": true,
+    "createdAt": "2026-05-30T00:00:00.000Z",
+    "updatedAt": "2026-05-30T00:00:00.000Z"
+  },
+  {
+    "title": "Online Coding Starter Program",
+    "slug": "online-coding-starter-program",
+    "type": "learning_service",
+    "categoryIds": ["digital_skills", "career_skills"],
+    "deliveryModeIds": ["online", "self_paced"],
+    "targetAudienceIds": ["students", "job_seekers", "adults"],
+    "tagIds": ["digital_skills", "computer", "training", "jobs"],
+    "description": "A self-paced online program covering basic programming concepts, web development, and problem solving.",
+    "provider": {
+      "name": "Future Skills Academy",
+      "website": "https://example.org.au/coding-starter",
+      "phone": null,
+      "email": "learn@futureskills.example.org.au"
+    },
+    "cost": {
+      "type": "free",
+      "description": "Free online program"
+    },
+    "location": {
+      "onlineOnly": true,
+      "state": "NSW",
+      "suburb": null,
+      "postcode": null,
+      "addressLine1": null,
+      "addressLine2": null
+    },
+    "eligibility": "No previous coding experience required.",
+    "openingHours": "Self-paced",
+    "isActive": true,
+    "createdAt": "2026-05-30T00:00:00.000Z",
+    "updatedAt": "2026-05-30T00:00:00.000Z"
+  },
+  {
+    "title": "Chatswood Small Business Skills Program",
+    "slug": "chatswood-small-business-skills-program",
+    "type": "learning_service",
+    "categoryIds": ["business_skills", "digital_skills"],
+    "deliveryModeIds": ["in_person", "online"],
+    "targetAudienceIds": ["small_business_owners", "adults"],
+    "tagIds": ["business", "digital_skills", "training", "advice"],
+    "description": "Training for people who want to start or improve a small business, including marketing, budgeting, and online tools.",
+    "provider": {
+      "name": "Chatswood Business Training Centre",
+      "website": "https://example.org.au/chatswood-business",
+      "phone": "02 9400 5500",
+      "email": "training@chatswoodbusiness.example.org.au"
+    },
+    "cost": {
+      "type": "low_cost",
+      "description": "Low-cost program"
+    },
+    "location": {
+      "onlineOnly": false,
+      "state": "NSW",
+      "suburb": "Chatswood",
+      "postcode": "2067",
+      "addressLine1": "60 Victoria Avenue",
+      "addressLine2": "Suite 5"
+    },
+    "eligibility": "Suitable for beginners and early-stage small business owners.",
+    "openingHours": "Evening sessions available",
+    "isActive": true,
+    "createdAt": "2026-05-30T00:00:00.000Z",
+    "updatedAt": "2026-05-30T00:00:00.000Z"
+  },
+  {
+    "title": "Penrith Life Skills Group",
+    "slug": "penrith-life-skills-group",
+    "type": "learning_service",
+    "categoryIds": ["life_skills"],
+    "deliveryModeIds": ["in_person"],
+    "targetAudienceIds": ["adults", "young_people", "community_members"],
+    "tagIds": ["support", "training", "free"],
+    "description": "A community-based group helping people build confidence, communication skills, planning skills, and daily life skills.",
+    "provider": {
+      "name": "Penrith Community Support Centre",
+      "website": "https://example.org.au/penrith-life-skills",
+      "phone": "02 9500 6600",
+      "email": "programs@penrithcommunity.example.org.au"
+    },
+    "cost": {
+      "type": "free",
+      "description": "Free community group"
+    },
+    "location": {
+      "onlineOnly": false,
+      "state": "NSW",
+      "suburb": "Penrith",
+      "postcode": "2750",
+      "addressLine1": "15 High Street",
+      "addressLine2": "Community Room"
+    },
+    "eligibility": "Open to local community members.",
+    "openingHours": "Wednesday afternoons",
+    "isActive": true,
+    "createdAt": "2026-05-30T00:00:00.000Z",
+    "updatedAt": "2026-05-30T00:00:00.000Z"
+  },
+  {
+    "title": "Newcastle Community Learning Link",
+    "slug": "newcastle-community-learning-link",
+    "type": "learning_service",
+    "categoryIds": ["life_skills", "digital_skills"],
+    "deliveryModeIds": ["in_person", "online"],
+    "targetAudienceIds": ["community_members", "seniors", "adults"],
+    "tagIds": ["digital_skills", "training", "support", "free"],
+    "description": "A mixed learning program covering everyday digital tasks, communication skills, and community participation.",
+    "provider": {
+      "name": "Newcastle Community Learning Link",
+      "website": "https://example.org.au/newcastle-learning-link",
+      "phone": "02 9600 7700",
+      "email": "info@newcastlelearning.example.org.au"
+    },
+    "cost": {
+      "type": "free",
+      "description": "Free program"
+    },
+    "location": {
+      "onlineOnly": false,
+      "state": "NSW",
+      "suburb": "Newcastle",
+      "postcode": "2300",
+      "addressLine1": "30 Hunter Street",
+      "addressLine2": null
+    },
+    "eligibility": "Open to adults and seniors who want to build everyday skills.",
+    "openingHours": "Friday mornings",
+    "isActive": true,
+    "createdAt": "2026-05-30T00:00:00.000Z",
+    "updatedAt": "2026-05-30T00:00:00.000Z"
+  }
+]
