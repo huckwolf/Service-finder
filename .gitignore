@@ -45,4 +45,4 @@ next-env.d.ts
 .vscode
 
 # private files
-/private
+/private/files

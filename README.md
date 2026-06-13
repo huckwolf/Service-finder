@@ -2,7 +2,13 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+First, install app:
+
+```bash
+npm install && npm ci
+```
+
+Second, run the development server:
 
 ```bash
 npm run dev
@@ -14,23 +20,53 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Docker And MongoDB
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Start the app and MongoDB containers:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+docker compose up -d
+```
 
-## Learn More
+Load the seed JSON files from `private/mongodb_json` into MongoDB:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+make db deploy
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This imports:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `tags.json` into the `tags` collection
+- `target_audiences.json` into the `target_audiences` collection
+- `services.json` into the `services` collection
 
-## Deploy on Vercel
+The import uses `--drop`, so running it again replaces the existing data in those collections.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Check that MongoDB is running:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+make db
+```
+
+Check the imported document counts:
+
+```bash
+make db-count
+```
+
+Expected seed counts:
+
+```text
+tags: 15
+target_audiences: 10
+services: 12
+```
+
+Useful Make targets:
+
+| Command | What it does |
+| --- | --- |
+| `make db` | Checks whether the MongoDB container is ready. |
+| `make db deploy` | Checks MongoDB, then imports all seed JSON files. |
+| `make db-deploy` | Same import command as `make db deploy`. |
+| `make db-count` | Prints document counts for the seeded collections. |
