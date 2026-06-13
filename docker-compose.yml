@@ -1,0 +1,47 @@
+services:
+  nextjs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: service-finder-nextjs
+    ports:
+      - "3000:3000"
+    environment:
+      MONGODB_URI: mongodb://service_finder:service_finder_password@mongodb:27017/service_finder?authSource=admin
+      WATCHPACK_POLLING: true
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - /app/.next
+    depends_on:
+      - mongodb
+
+  mongodb:
+    image: mongo:7
+    container_name: service-finder-mongodb
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: service_finder
+      MONGO_INITDB_ROOT_PASSWORD: service_finder_password
+      MONGO_INITDB_DATABASE: service_finder
+    volumes:
+      - mongodb_data:/data/db
+
+  mongo-express:
+    image: mongo-express:latest
+    container_name: service-finder-mongo-express
+    restart: unless-stopped
+    ports:
+      - "8081:8081"
+    environment:
+      ME_CONFIG_MONGODB_ADMINUSERNAME: service_finder
+      ME_CONFIG_MONGODB_ADMINPASSWORD: service_finder_password
+      ME_CONFIG_MONGODB_URL: mongodb://service_finder:service_finder_password@mongodb:27017/
+      ME_CONFIG_BASICAUTH: false
+    depends_on:
+      - mongodb
+
+volumes:
+  mongodb_data:

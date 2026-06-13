@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "adults",
+    "label": "Adults",
+    "description": "Services suitable for adults.",
+    "isActive": true
+  },
+  {
+    "_id": "families",
+    "label": "Families",
+    "description": "Services suitable for families.",
+    "isActive": true
+  },
+  {
+    "_id": "young_people",
+    "label": "Young people",
+    "description": "Services suitable for young people.",
+    "isActive": true
+  },
+  {
+    "_id": "students",
+    "label": "Students",
+    "description": "Services suitable for students.",
+    "isActive": true
+  },
+  {
+    "_id": "job_seekers",
+    "label": "Job seekers",
+    "description": "Services suitable for people looking for work.",
+    "isActive": true
+  },
+  {
+    "_id": "seniors",
+    "label": "Seniors",
+    "description": "Services suitable for older people.",
+    "isActive": true
+  },
+  {
+    "_id": "migrants",
+    "label": "Migrants",
+    "description": "Services suitable for migrants and new arrivals.",
+    "isActive": true
+  },
+  {
+    "_id": "women",
+    "label": "Women",
+    "description": "Services suitable for women.",
+    "isActive": true
+  },
+  {
+    "_id": "small_business_owners",
+    "label": "Small business owners",
+    "description": "Services suitable for small business owners.",
+    "isActive": true
+  },
+  {
+    "_id": "community_members",
+    "label": "Community members",
+    "description": "Services suitable for local community members.",
+    "isActive": true
+  }
+]
