@@ -41,4 +41,12 @@ yarn-error.log*
 next-env.d.ts
 
 # IDE
+<<<<<<< Updated upstream
 .idea
+=======
+.idea
+.vscode
+
+# private files
+/private/files
+>>>>>>> Stashed changes
