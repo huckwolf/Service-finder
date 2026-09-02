@@ -1,4 +1,4 @@
-import { Schema, model, models, Model } from "mongoose";
+import { Schema, model, models, type Model } from "mongoose";
 import { Service } from "@/types/service";
 import locationSchema from "./Service/Location";
 import providerSchema from "./Service/Provider";
